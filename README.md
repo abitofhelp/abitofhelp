@@ -11,9 +11,6 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 - 🧩 Systems: C / C# / Rust / Ada 2022; FFI boundaries; predictable latency work
 - 🤖 AI-assisted engineering: ChatGPT & Claude Code for scaffolding, refactors, tests, PRs, and runbooks (with safe-use practices)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)](https://github.com/abitofhelp/github-readme-stats&langs_count=20)
-
-
 ## Open Source
 - Active contributor to the **Ada Library Repository**
 - I publish and maintain multiple **libraries/tools** here on GitHub — feel free to open issues or PRs
