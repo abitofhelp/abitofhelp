@@ -12,12 +12,12 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 - 🤖 AI-assisted engineering: ChatGPT & Claude Code for scaffolding, refactors, tests, PRs, and runbooks (with safe-use practices)
 
 ## Recent Open Source
-- Alire (Ada 2022)	
-• Functional (author/maintainer) — Ada 2022 crate for functional error & exception handling • https://alire.ada.dev/crates/functional.html
-• ZoneInfo (author/maintainer) — Ada 2022 crate for time zone support using the IANA Time Zone Database • https://alire.ada.dev/crates/zoneinfo.html
+Alire (Ada 2022)	
+- Functional (author/maintainer) — Ada 2022 crate for functional error & exception handling • https://alire.ada.dev/crates/functional.html
+- ZoneInfo (author/maintainer) — Ada 2022 crate for time zone support using the IANA Time Zone Database • https://alire.ada.dev/crates/zoneinfo.html
 
-- Cargo (Rust 2021)
-• Adaptive-Pipeline (author/maintainer) — Rust 2021 crate for a high-performance adaptive file processing pipeline • https://crates.io/crates/adaptive-pipeline
+Cargo (Rust 2021)
+- Adaptive-Pipeline (author/maintainer) — Rust 2021 crate for a high-performance adaptive file processing pipeline • https://crates.io/crates/adaptive-pipeline
 
 ## Interests
 IoT / IIoT (device-to-cloud), geospatial/photogrammetry, defense/space, scientific/medical data, distributed systems, observability, and developer experience (Bazel).
