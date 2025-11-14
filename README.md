@@ -15,6 +15,8 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 Alire (Ada 2022)	
 - Functional (author/maintainer) — Ada 2022 crate for functional error & exception handling 
   • https://alire.ada.dev/crates/functional.html
+- TZif (author/maintainer) — Ada 2022 crate for parsing and querying IANA timezone information from TZif binary files (RFC 9636) 
+  • https://alire.ada.dev/crates/tzif.html
 - ZoneInfo (author/maintainer) — Ada 2022 crate for time zone support using the IANA Time Zone Database 
   • https://alire.ada.dev/crates/zoneinfo.html
 
