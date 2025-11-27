@@ -13,11 +13,11 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 
 ## Recent Open Source
 Alire (Ada 2022)	
-- Functional (author/maintainer) — Ada 2022 crate for functional error & exception handling 
+- Functional (author/maintainer) — Crate for functional error & exception handling 
   • https://alire.ada.dev/crates/functional.html
-- TZif (author/maintainer) — Ada 2022 crate for parsing and querying IANA timezone information from TZif binary files (RFC 9636) 
+- TZif (author/maintainer) — Crate for parsing and querying IANA timezone information from TZif binary files (RFC 9636) 
   • https://alire.ada.dev/crates/tzif.html
-- ZoneInfo (author/maintainer) — Ada 2022 crate for time zone support using the IANA Time Zone Database 
+- ZoneInfo (author/maintainer) — Crate for time zone support using the IANA Time Zone Database 
   • https://alire.ada.dev/crates/zoneinfo.html
 
 Go (Go 1.25.3)
@@ -25,7 +25,7 @@ Go (Go 1.25.3)
 - hybrid_lib_go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
 
 Cargo (Rust 2021)
-- Adaptive-Pipeline (author/maintainer) — Rust 2021 crate for a high-performance adaptive file processing pipeline 
+- Adaptive-Pipeline (author/maintainer) — Crate for a high-performance adaptive file processing pipeline 
   • https://crates.io/crates/adaptive-pipeline
 
 ## Interests
