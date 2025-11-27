@@ -20,6 +20,10 @@ Alire (Ada 2022)
 - ZoneInfo (author/maintainer) — Ada 2022 crate for time zone support using the IANA Time Zone Database 
   • https://alire.ada.dev/crates/zoneinfo.html
 
+Go (Go 1.25.3)
+- hybrid_app_go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
+- hybrid_lib_go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
+
 Cargo (Rust 2021)
 - Adaptive-Pipeline (author/maintainer) — Rust 2021 crate for a high-performance adaptive file processing pipeline 
   • https://crates.io/crates/adaptive-pipeline
