@@ -22,7 +22,9 @@ Alire (Ada 2022)
 
 Go (Go 1.25.3)
 - hybrid_app_go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
+  • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_go
 - hybrid_lib_go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
+  • https://pkg.go.dev/github.com/abitofhelp/hybrid_lib_go
 
 Cargo (Rust 2021)
 - Adaptive-Pipeline (author/maintainer) — Crate for a high-performance adaptive file processing pipeline 
