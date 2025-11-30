@@ -15,6 +15,10 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 Alire (Ada 2022)	
 - Functional (author/maintainer) — Crate for functional error & exception handling 
   • https://alire.ada.dev/crates/functional.html
+- hybrid_app_ada (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
+  • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_ada
+- hybrid_lib_ada (author/maintainer) — Starter library with hybrid DDD/Clean/Hexagonal architecture
+  • https://pkg.go.dev/github.com/abitofhelp/hybrid_lib_ada  
 - TZif (author/maintainer) — Crate for parsing and querying IANA timezone information from TZif binary files (RFC 9636) 
   • https://alire.ada.dev/crates/tzif.html
 - ZoneInfo (author/maintainer) — Crate for time zone support using the IANA Time Zone Database 
