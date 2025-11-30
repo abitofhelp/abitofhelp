@@ -15,9 +15,9 @@ Principal/Senior Software Engineer. I build and operate production platforms: Go
 Alire (Ada 2022)	
 - Functional (author/maintainer) — Crate for functional error & exception handling 
   • https://alire.ada.dev/crates/functional.html
-- hybrid_app_ada (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
+- Hybrid_App_Ada (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_ada
-- hybrid_lib_ada (author/maintainer) — Starter library with hybrid DDD/Clean/Hexagonal architecture
+- Hybrid_Lib_Ada (author/maintainer) — Starter library with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_lib_ada  
 - TZif (author/maintainer) — Crate for parsing and querying IANA timezone information from TZif binary files (RFC 9636) 
   • https://alire.ada.dev/crates/tzif.html
@@ -25,9 +25,9 @@ Alire (Ada 2022)
   • https://alire.ada.dev/crates/zoneinfo.html
 
 Go (Go 1.25.3)
-- hybrid_app_go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
+- Hybrid_App_Go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_go
-- hybrid_lib_go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
+- Hybrid_Lib_Go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_lib_go
 
 Cargo (Rust 2021)
