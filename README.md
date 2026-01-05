@@ -1,6 +1,27 @@
 # Hi, I’m Mike 👋
 
-Principal/Senior Software Engineer. I build and operate production platforms: Go (Golang) on Azure/Kubernetes, secure gRPC service meshes (Linkerd2, mTLS, OIDC via Okta/AD), and SLO-driven observability (Prometheus/Grafana). I also write performance-critical components in C, C#, Rust, and Ada 2022 with clean FFI seams.
+## Core Skills
+* AI integration: LLMs
+* AI Accelerated Development: ChatGPT, Claude Code
+* Languages & Systems: Ada 2022, C, C#, Go, Python, Rust
+* Cloud, Orchestration & Containers: AWS/GCP (familiar), Azure, Docker, Helm, Kubernetes, Linux, Terraform
+* Architecture: Distributed systems, Enterprise Architecture, Microservices, Embedded, Domain Driven Design, Clean/Hexagonal, IoT
+* Build & DevOp: Alire, Bazel, CI/CD, GitHub Actions, GPRbuild
+* Networking: Ambassador/Emissary, GraphQL, gRPC, Linkerd2, NGINX, REST
+* Serverless & Eventing: AWS Lambda (familiar), Azure Functions
+* Security: Active Directory, Azure Key Vault, HIPAA, OAuth2, OIDC, Okta, TLS, X.509
+* Data: Azure Data Services, SQL Server, MongoDB Atlas, PostgreSQL, Redis, SQLite
+* Observability & Messaging: Azure Queues, Grafana, Prometheus, SendGrid
+
+## Professional Summary
+* Actively using Agentic workflows using ChatGPT and Claude Code to boost productivity, improve quality, and accelerate learning.
+* Hands-on engineer who architects, builds, deploys, and monitors production SaaS systems using Cloud platforms, resources, and services.
+* Skilled engineer comfortable with low-level development, electronics, and embedded programming on STM32 boards.
+* Actively pursuing experience with device-to-cloud (IoT / Industrial IoT) and applied AI (automation workflows, integrating LLMs, etc.).
+* Allen-Bradley (Rockwell Automation): Global Senior Application Engineer, 10-year tenure; critical global field support; customer training;
+  created PLC Ethernet, ERP, and VME C API libraries; published APIs in product manuals; APIs adopted by customers across manufacturing and
+  mission-critical deployments by the French Navy (VME PLC battleship control).
+* University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
 
 - 🚀 Shipped: multi-tenant geoinformatics SaaS on Azure/K8s; 77% CI speedup with Bazel + GitHub Actions
 - 🛰️ Data/imagery: delivered concurrent geospatial/photogrammetry processing, optimizing throughput vs. storage for mobile clients
