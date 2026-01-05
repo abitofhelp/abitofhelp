@@ -1,36 +1,27 @@
 # Hi, I’m Mike 👋
 
 ## Core Skills
-* AI integration: LLMs
-* AI Accelerated Development: ChatGPT, Claude Code
-* Languages & Systems: Ada 2022, C, C#, Go, Python, Rust
-* Cloud, Orchestration & Containers: AWS/GCP (familiar), Azure, Docker, Helm, Kubernetes, Linux, Terraform
-* Architecture: Distributed systems, Enterprise Architecture, Microservices, Embedded, Domain Driven Design, Clean/Hexagonal, IoT
-* Build & DevOp: Alire, Bazel, CI/CD, GitHub Actions, GPRbuild
-* Networking: Ambassador/Emissary, GraphQL, gRPC, Linkerd2, NGINX, REST
-* Serverless & Eventing: AWS Lambda (familiar), Azure Functions
-* Security: Active Directory, Azure Key Vault, HIPAA, OAuth2, OIDC, Okta, TLS, X.509
-* Data: Azure Data Services, SQL Server, MongoDB Atlas, PostgreSQL, Redis, SQLite
-* Observability & Messaging: Azure Queues, Grafana, Prometheus, SendGrid
+- 🤖 AI integration: LLMs
+- 🤖 AI Accelerated Development: ChatGPT, Claude Code
+- 💻 Languages & Systems: Ada 2022, C, C#, Go, Python, Rust
+- ☁️ Cloud, Orchestration & Containers: AWS/GCP (familiar), Azure, Docker, Helm, Kubernetes, Linux, Terraform
+- 🏗️ Architecture: Distributed systems, Enterprise Architecture, Microservices, Embedded, Domain Driven Design, Clean/Hexagonal, IoT
+- ⚙️ Build & DevOp: Alire, Bazel, CI/CD, GitHub Actions, GPRbuild
+- 🌐 Networking: Ambassador/Emissary, GraphQL, gRPC, Linkerd2, NGINX, REST
+- ⚡ Serverless & Eventing: AWS Lambda (familiar), Azure Functions
+- 🔒 Security: Active Directory, Azure Key Vault, HIPAA, OAuth2, OIDC, Okta, TLS, X.509
+- 🗄️ Data: Azure Data Services, SQL Server, MongoDB Atlas, PostgreSQL, Redis, SQLite
+- 📈 Observability & Messaging: Azure Queues, Grafana, Prometheus, SendGrid
 
 ## Professional Summary
-* Actively using Agentic workflows using ChatGPT and Claude Code to boost productivity, improve quality, and accelerate learning.
-* Hands-on engineer who architects, builds, deploys, and monitors production SaaS systems using Cloud platforms, resources, and services.
-* Skilled engineer comfortable with low-level development, electronics, and embedded programming on STM32 boards.
-* Actively pursuing experience with device-to-cloud (IoT / Industrial IoT) and applied AI (automation workflows, integrating LLMs, etc.).
-* Allen-Bradley (Rockwell Automation): Global Senior Application Engineer, 10-year tenure; critical global field support; customer training;
-  created PLC Ethernet, ERP, and VME C API libraries; published APIs in product manuals; APIs adopted by customers across manufacturing and
-  mission-critical deployments by the French Navy (VME PLC battleship control).
-* University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
-
-- 🚀 Shipped: multi-tenant geoinformatics SaaS on Azure/K8s; 77% CI speedup with Bazel + GitHub Actions
-- 🛰️ Data/imagery: delivered concurrent geospatial/photogrammetry processing, optimizing throughput vs. storage for mobile clients
-- 🔐 Reliability/Security: end-to-end mTLS, OIDC (Okta/AD); SLI/SLOs with actionable alerting and runbooks
-- 🧭 Leadership: Software Engineering Manager for three teams (~20 engineers); mentorship on modern practices and distributed architectures
-- 🧪 Regulated envs: HIPAA (contracting, pre-SaaS), SOC 2 (university)
-- 🧰 Platform: Terraform, Helm, Redis (caching), Azure Queues (eventing), API gateways (Ambassador/Emissary, NGINX), light Azure Functions; familiar with AWS/GCP equivalents
-- 🧩 Systems: C / C# / Rust / Ada 2022; FFI boundaries; predictable latency work
-- 🤖 AI-assisted engineering: ChatGPT & Claude Code for scaffolding, refactors, tests, PRs, and runbooks (with safe-use practices)
+- 🤖 Actively using Agentic workflows using ChatGPT and Claude Code to boost productivity, improve quality, and accelerate learning.
+- 🧑‍💻 Hands-on engineer who architects, builds, deploys, and monitors production SaaS systems using Cloud platforms, resources, and services.
+- 🔧 Skilled engineer comfortable with low-level development, electronics, and embedded programming on STM32 boards.
+- 🌐 Actively pursuing experience with device-to-cloud (IoT / Industrial IoT) and applied AI (automation workflows, integrating LLMs, etc.).
+- 🏭 Allen-Bradley (Rockwell Automation): Global Senior Application Engineer, 10-year tenure; critical global field support; customer training;
+created PLC Ethernet, ERP, and VME C API libraries; published APIs in product manuals; APIs adopted by customers across manufacturing and
+mission-critical deployments by the French Navy (VME PLC battleship control).
+- 🎓 University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
 
 ## Recent Open Source
 Alire (Ada 2022)	
