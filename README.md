@@ -4,7 +4,7 @@
 
 ## Connect
 - 📄 [Download Resume](https://github.com/user-attachments/files/24492991/Resume.pdf)
-- :octocat: GitHub: <https://github.com/abitofhelp>
+- <img width="20" height="20" alt="image" src="https://github.githubassets.com/images/icons/emoji/octocat.png" /> GitHub: <https://github.com/abitofhelp>
 - 🌐 LinkedIn: <https://www.linkedin.com/in/michaeljosephgardner>
 - 📬 Email: mjgardner@abitofhelp.com
 
