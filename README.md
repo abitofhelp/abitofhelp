@@ -3,7 +3,9 @@
 # Hi, I’m Mike 👋
 
 ## Connect
-- 🌐 LinkedIn: https://www.linkedin.com/in/michaeljosephgardner  
+- 📄 [Download Resume](https://github.com/user-attachments/files/24492991/Resume.pdf)
+- :octocat: GitHub: <https://github.com/abitofhelp>
+- 🌐 LinkedIn: <https://www.linkedin.com/in/michaeljosephgardner>
 - 📬 Email: mjgardner@abitofhelp.com
 
 ## Core Skills
