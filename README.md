@@ -1,4 +1,10 @@
+<img width="230" height="230" alt="image" src="https://github.com/user-attachments/assets/4b3a4a18-c1a6-49a1-8231-6c3e923cd91e" />
+
 # Hi, I’m Mike 👋
+
+## Connect
+- 🌐 LinkedIn: https://www.linkedin.com/in/michaeljosephgardner  
+- 📬 Email: mjgardner@abitofhelp.com
 
 ## Core Skills
 - 🤖 AI integration: LLMs
@@ -47,12 +53,7 @@ Cargo (Rust 2021)
   • https://crates.io/crates/adaptive-pipeline
 
 ## Interests
-IoT / IIoT (device-to-cloud), geospatial/photogrammetry, defense/space, scientific/medical data, distributed systems, observability, and developer experience (Bazel).
+IoT / IIoT (device-to-cloud), defense/space, scientific/medical data, distributed systems, embedded, electronics, aviation
 
 ## Selected Tech
 Go (Golang) • C • C# • Rust • Ada 2022 • Kubernetes (K8s) • Azure • Linkerd2 • gRPC • GraphQL/REST • Terraform • Helm • Redis • Azure Queues • Bazel • GitHub Actions • Prometheus • Grafana • NGINX • Ambassador/Emissary
-
-## Connect
-- 🌐 LinkedIn: https://www.linkedin.com/in/michaeljosephgardner  
-- 💻 GitHub: https://github.com/abitofhelp  
-- 📬 Email: mjgardner@abitofhelp.com
