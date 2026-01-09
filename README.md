@@ -1,10 +1,10 @@
-<img width="230" height="230" alt="image" src="https://github.com/user-attachments/assets/4b3a4a18-c1a6-49a1-8231-6c3e923cd91e" />
+<img width="230" height="230" alt="image" src="/assets/images/hiking_mike.png" />
 
 # Hi, I’m Mike 👋
 
 ## Connect
-- 📄 [Download Resume](https://github.com/user-attachments/files/24492991/Resume.pdf)
-- <img width="20" height="20" alt="image" src="https://github.githubassets.com/images/icons/emoji/octocat.png" /> GitHub: <https://github.com/abitofhelp>
+- 📄 [Download Resume](/assets/docs/resume.pdf)
+- <img width="20" height="20" alt="image" src="/assets/images/octocat.png" /> GitHub: <https://github.com/abitofhelp>
 - 🌐 LinkedIn: <https://www.linkedin.com/in/michaeljosephgardner>
 - 📬 Email: mjgardner@abitofhelp.com
 
