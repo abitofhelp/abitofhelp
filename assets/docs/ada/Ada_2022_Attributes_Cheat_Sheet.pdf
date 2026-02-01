@@ -1,0 +1,2806 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 11
+/Kids [ 4 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3015
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 1) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 663.6 cm
+Q
+q
+1 0 0 1 60 635.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 24 Tf 28 TL 133.308 0 Td (Ada 2022 Attributes) Tj T* -133.308 0 Td ET
+Q
+Q
+q
+1 0 0 1 60 585.6 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 20 Tm /F1 12 Tf 16 TL (A practical, developer-focused reference to the apostrophe-prefixed attributes used to query) Tj T* (\(and sometimes define\) language semantics.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 551.6 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 4 Tm /F1 12 Tf 16 TL (Updated: February 01, 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 515.6 cm
+Q
+q
+1 0 0 1 60 470.6 cm
+q
+BT 1 0 0 1 0 29 Tm 13 TL /F1 10 Tf 0 0 0 rg (In Ada, an ) Tj /F2 10 Tf (attribute) Tj /F1 10 Tf ( is a characteristic of an entity that you query using an ) Tj /F2 10 Tf (attribute_reference) Tj /F1 10 Tf ( \(for example,) Tj T* /F3 10 Tf (T'First) Tj /F1 10 Tf ( or ) Tj /F3 10 Tf (A'Length\(1\)) Tj /F1 10 Tf (\). Some attributes also participate in representation and operational semantics \(for) Tj T* (example, ) Tj /F3 10 Tf (X'Address) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (T'Alignment) Tj /F1 10 Tf (, or stream attributes like ) Tj /F3 10 Tf (T'Read) Tj /F1 10 Tf (\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 457.4 cm
+Q
+q
+1 0 0 1 60 425.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Syntax patterns) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 365.4 cm
+q
+BT 1 0 0 1 0 42 Tm 13 TL /F1 10 Tf 0 0 0 rg (Basic: ) Tj /F3 10 Tf (Prefix'Attribute) Tj /F1 10 Tf  T* (With argument\(s\): ) Tj /F3 10 Tf (Prefix'Attribute\(Arg\)) Tj /F1 10 Tf ( \(e.g., ) Tj /F3 10 Tf (E'Pos\(X\)) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (A'Length\(2\)) Tj /F1 10 Tf (\)) Tj  T* (Dimensioned array attributes: ) Tj /F3 10 Tf (A'First\(D\)) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (A'Last\(D\)) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (A'Range\(D\)) Tj /F1 10 Tf (, ) Tj /F3 10 Tf (A'Length\(D\)) Tj /F1 10 Tf  T* (Range attribute reference: ) Tj /F3 10 Tf (T'Range) Tj /F1 10 Tf ( or ) Tj /F3 10 Tf (A'Range\(D\)) Tj /F1 10 Tf ( \(commonly used in loops and constraints\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 333.4 cm
+q
+BT 1 0 0 1 0 16 Tm 13 TL /F1 10 Tf 0 0 0 rg (Tip: Most attributes are ) Tj /F4 10 Tf (queries) Tj /F1 10 Tf ( \(read-only\). Some can be ) Tj /F4 10 Tf (specified) Tj /F1 10 Tf ( via an attribute definition clause \(for) Tj T* (example, specifying Storage_Size for an access type\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 1794
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 2) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Ada 2022 highlights) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667.2 cm
+q
+BT 1 0 0 1 0 16 Tm 13 TL /F2 10 Tf 0 0 0 rg ('Image for any type) Tj /F1 10 Tf (: Ada 2022 generalizes ) Tj /F3 10 Tf ('Image) Tj /F1 10 Tf ( \(and Wide/Wide_Wide variants\) beyond scalar types. You) Tj T* (can also provide a user-defined image via ) Tj /F3 10 Tf ('Put_Image) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 635.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16 Tm /F1 10 Tf 13 TL (This is extremely handy for logging, debugging, and quick serialization-style display output without writing) Tj T* (bespoke To_String functions for every type.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 623.44 cm
+Q
+q
+1 0 0 1 60 598.44 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 12 Tf 15 TL (Example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 559.44 cm
+q
+.964706 .964706 .964706 rg
+n -6 -6 504 45 re f*
+Q
+q
+BT 1 0 0 1 0 24 Tm 11 TL /F3 9 Tf 0 0 0 rg (type Vector is array \(Positive range <) Tj (>\) of Integer;) Tj  T* (V : Vector := [1, 2, 3];) Tj  T* (Put_Line \(V'Image\);) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 8780
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 3) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Core attributes you will use constantly) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 341.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 352 525.6 -20 re f*
+1 1 1 rg
+n 0 332 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 302 525.6 -30 re f*
+1 1 1 rg
+n 0 272 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 242 525.6 -19 re f*
+1 1 1 rg
+n 0 223 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 193 525.6 -19 re f*
+1 1 1 rg
+n 0 174 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 155 525.6 -19 re f*
+1 1 1 rg
+n 0 136 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 117 525.6 -19 re f*
+1 1 1 rg
+n 0 98 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 68 525.6 -30 re f*
+1 1 1 rg
+n 0 38 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 339 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 339 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 339 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 339 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 317 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (First) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 306 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (discrete types; arrays) Tj T* (\(dim\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 317 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (index/first) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 317 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (For arrays use ) Tj /F3 8.5 Tf (A'First\(D\)) Tj /F1 8.5 Tf (. Common in loops.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 287 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Last) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 276 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (discrete types; arrays) Tj T* (\(dim\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 287 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (index/last) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 287 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (For arrays use ) Tj /F3 8.5 Tf (A'Last\(D\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 257 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 246 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (discrete types; arrays) Tj T* (\(dim\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 257 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 257 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Often used in loops: ) Tj /F3 8.5 Tf (for I in A'Range\(1\) loop) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 227 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Length) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 227 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (arrays \(dim\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 227 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Natural) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 227 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Number of elements in a dimension: ) Tj /F3 8.5 Tf (A'Length\(1\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 208 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Image) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 208 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (any type \(Ada 2022\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 208 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (String) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 197 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Display-form string for a value. Wide variants return Wide_String /) Tj T* (Wide_Wide_String.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 178 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Value) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 178 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (scalar types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 178 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 178 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Parse a string into a value: ) Tj /F3 8.5 Tf (T'Value\("42"\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 159 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 159 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types/objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 159 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (bits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 159 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Representation size in bits \(context-dependent\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 140 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Object_Size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 140 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 140 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (bits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 140 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Size used for objects of the type \(can differ from 'Size\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 121 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Alignment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 121 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types/objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 121 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (bytes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 121 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Required alignment for objects of the type/object.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 102 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Address) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 102 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (objects; subprograms) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 102 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (System.Address) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 102 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Low-level address \(representation/interop\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 83 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Valid) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 83 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 83 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 72 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Checks whether an object's representation is valid for its subtype) Tj T* (\(useful at boundaries\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Constrained) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (subtypes/objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Whether a subtype or object is constrained \(esp. arrays,) Tj T* (discriminants\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (tagged types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (T) Tj (') Tj (Class) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Use for polymorphism: ) Tj /F3 8.5 Tf (T'Class) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Tag) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (tagged types/objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (tag) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Runtime tag for dispatching / RTTI-like uses.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 352 m 525.6 352 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 352 l S
+n 525.6 0 m 525.6 352 l S
+n 0 332 m 525.6 332 l S
+n 0 302 m 525.6 302 l S
+n 0 272 m 525.6 272 l S
+n 0 242 m 525.6 242 l S
+n 0 223 m 525.6 223 l S
+n 0 193 m 525.6 193 l S
+n 0 174 m 525.6 174 l S
+n 0 155 m 525.6 155 l S
+n 0 136 m 525.6 136 l S
+n 0 117 m 525.6 117 l S
+n 0 98 m 525.6 98 l S
+n 0 68 m 525.6 68 l S
+n 0 38 m 525.6 38 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 352 l S
+n 172.8 0 m 172.8 352 l S
+n 262.8 0 m 262.8 352 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4922
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 4) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Discrete and enumeration attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 540.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 153 525.6 -20 re f*
+1 1 1 rg
+n 0 133 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 114 525.6 -19 re f*
+1 1 1 rg
+n 0 95 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 76 525.6 -19 re f*
+1 1 1 rg
+n 0 57 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 38 525.6 -19 re f*
+1 1 1 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 140 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 140 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 140 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 140 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 118 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Pos) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 118 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (discrete types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 118 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 118 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Position number of a value \(esp. enums\): ) Tj /F3 8.5 Tf (Color'Pos\(Red\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 99 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Val) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 99 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (discrete types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 99 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 99 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Inverse of 'Pos: ) Tj /F3 8.5 Tf (Color'Val\(0\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 80 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Succ) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (discrete types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 80 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Successor: ) Tj /F3 8.5 Tf (Day'Succ\(Mon\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Pred) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (discrete types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 61 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F1 8.5 Tf .2 .2 .2 rg (Predecessor: ) Tj /F3 8.5 Tf (Day'Pred\(Tue\)) Tj /F1 8.5 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 42 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Width) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (scalar types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Width needed for 'Image \(mostly relevant for formatting\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Enum_Rep) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (enum types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Representation value for an enum literal \(useful for interop\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Enum_Val) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (enum types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Inverse of 'Enum_Rep.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 153 m 525.6 153 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 153 l S
+n 525.6 0 m 525.6 153 l S
+n 0 133 m 525.6 133 l S
+n 0 114 m 525.6 114 l S
+n 0 95 m 525.6 95 l S
+n 0 76 m 525.6 76 l S
+n 0 57 m 525.6 57 l S
+n 0 38 m 525.6 38 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 153 l S
+n 172.8 0 m 172.8 153 l S
+n 262.8 0 m 262.8 153 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+17 0 obj
+<<
+/Contents 18 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 6953
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 5) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Real and fixed-point attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 431.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 262 525.6 -20 re f*
+1 1 1 rg
+n 0 242 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 223 525.6 -30 re f*
+1 1 1 rg
+n 0 193 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 163 525.6 -30 re f*
+1 1 1 rg
+n 0 133 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 114 525.6 -19 re f*
+1 1 1 rg
+n 0 95 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 76 525.6 -19 re f*
+1 1 1 rg
+n 0 57 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 38 525.6 -19 re f*
+1 1 1 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 249 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 249 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 249 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 249 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 227 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Digits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 227 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (floating point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 227 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 227 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Decimal digits of precision.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 197 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Machine_Rad) Tj  T* (ix) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 208 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (floating point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 208 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 208 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Radix used for machine representation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 167 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Machine_Emi) Tj  T* (n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 178 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (floating point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 178 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 178 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Minimum machine exponent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 137 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Machine_Ema) Tj  T* (x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 148 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (floating point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 148 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 148 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Maximum machine exponent.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 118 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Model_Small) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 118 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (floating/fixed types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 118 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_real) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 118 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Smallest positive model number \(model vs machine\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 99 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Delta) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 99 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (fixed-point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 99 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_real) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 99 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Delta \(step size\) of a fixed-point type.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 80 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Small) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (fixed-point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_real) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Smallest positive value \(for some fixed types\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Fore) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (fixed-point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Default digits before decimal \(Text_IO formatting\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 42 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Aft) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (fixed-point types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Default digits after decimal \(Text_IO formatting\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Safe_First) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (real types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Safe first value representable \(often for numeric safety margins\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Safe_Last) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (real types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Safe last value representable.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 262 m 525.6 262 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 262 l S
+n 525.6 0 m 525.6 262 l S
+n 0 242 m 525.6 242 l S
+n 0 223 m 525.6 223 l S
+n 0 193 m 525.6 193 l S
+n 0 163 m 525.6 163 l S
+n 0 133 m 525.6 133 l S
+n 0 114 m 525.6 114 l S
+n 0 95 m 525.6 95 l S
+n 0 76 m 525.6 76 l S
+n 0 57 m 525.6 57 l S
+n 0 38 m 525.6 38 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 262 l S
+n 172.8 0 m 172.8 262 l S
+n 262.8 0 m 262.8 262 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 3828
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 6) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Array and composite attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 567.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 126 525.6 -20 re f*
+1 1 1 rg
+n 0 106 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 87 525.6 -19 re f*
+1 1 1 rg
+n 0 68 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 49 525.6 -19 re f*
+1 1 1 rg
+n 0 30 525.6 -30 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 113 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 113 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 113 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 113 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 91 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (First\(D\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 91 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (array objects/types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 91 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (index) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 91 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (First index of dimension D.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 72 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Last\(D\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 72 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (array objects/types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 72 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (index) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 72 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Last index of dimension D.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Range\(D\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (array objects/types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (range) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Index range of dimension D.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 34 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Length\(D\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (array objects/types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Natural) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Number of components in dimension D.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Component_S) Tj  T* (ize) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 15 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (array types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 15 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (bits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 15 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Size in bits for each component \(representation control\).) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 126 m 525.6 126 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 126 l S
+n 525.6 0 m 525.6 126 l S
+n 0 106 m 525.6 106 l S
+n 0 87 m 525.6 87 l S
+n 0 68 m 525.6 68 l S
+n 0 49 m 525.6 49 l S
+n 0 30 m 525.6 30 l S
+n 75.6 0 m 75.6 126 l S
+n 172.8 0 m 172.8 126 l S
+n 262.8 0 m 262.8 126 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/Contents 22 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 4370
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 7) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Access \(pointer\) and allocation-related attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 534.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 159 525.6 -20 re f*
+1 1 1 rg
+n 0 139 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 109 525.6 -30 re f*
+1 1 1 rg
+n 0 79 525.6 -30 re f*
+.980392 .980392 .980392 rg
+n 0 49 525.6 -30 re f*
+1 1 1 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 146 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 146 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 146 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 146 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 124 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Access) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 124 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (objects/subprograms) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 124 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (access) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 113 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Create an access value designating an aliased object or) Tj T* (subprogram.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 83 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Unchecked_A) Tj  T* (ccess) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 94 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 94 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (access) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 94 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Bypasses accessibility checks \(unsafe; isolate usage\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 53 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Storage_Siz) Tj  T* (e) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (access types; task) Tj T* (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 64 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 53 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 13.5 Tm /F1 8.5 Tf 11 TL (Size of storage pool / task stack when specified; can be queried) Tj T* (too.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 13.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Storage_Poo) Tj  T* (l) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (access types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (pool) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 34 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Refers to the storage pool used for allocations of an access type.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Address) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (access objects too) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F3 8.5 Tf 11 TL (System.Address) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Low-level address; often paired with System and interfacing.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 159 m 525.6 159 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 159 l S
+n 525.6 0 m 525.6 159 l S
+n 0 139 m 525.6 139 l S
+n 0 109 m 525.6 109 l S
+n 0 79 m 525.6 79 l S
+n 0 49 m 525.6 49 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 159 l S
+n 172.8 0 m 172.8 159 l S
+n 262.8 0 m 262.8 159 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 502.2 cm
+q
+BT 1 0 0 1 0 16 Tm 13 TL /F1 10 Tf 0 0 0 rg (Reminder: in Ada, heap creation is called ) Tj /F2 10 Tf (allocation) Tj /F1 10 Tf ( \(via ) Tj /F3 10 Tf (new T) Tj /F1 10 Tf (\), not instantiation. Allocation also performs) Tj T* (initialization of the newly created object.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+23 0 obj
+<<
+/Contents 24 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 3822
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 8) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Stream-oriented attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 578.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 115 525.6 -20 re f*
+1 1 1 rg
+n 0 95 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 76 525.6 -19 re f*
+1 1 1 rg
+n 0 57 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 38 525.6 -19 re f*
+1 1 1 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 102 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 102 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 102 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 102 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 80 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Read) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (procedure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 80 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Read a value of the type from a stream.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 61 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Write) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (procedure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 61 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Write a value of the type to a stream.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 42 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (function) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Read and return a value \(often includes bounds/discriminants\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Output) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (procedure) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Write a value \(often includes bounds/discriminants\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Stream_Size) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (types) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Number of bits used by stream attributes for the type.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 115 m 525.6 115 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 115 l S
+n 525.6 0 m 525.6 115 l S
+n 0 95 m 525.6 95 l S
+n 0 76 m 525.6 76 l S
+n 0 57 m 525.6 57 l S
+n 0 38 m 525.6 38 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 115 l S
+n 172.8 0 m 172.8 115 l S
+n 262.8 0 m 262.8 115 l S
+Q
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 3025
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 531.0635 766.8 Tm (Page 9) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Tasking and entry attributes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 616.2 cm
+q
+.121569 .305882 .47451 rg
+n 0 77 525.6 -20 re f*
+1 1 1 rg
+n 0 57 525.6 -19 re f*
+.980392 .980392 .980392 rg
+n 0 38 525.6 -19 re f*
+1 1 1 rg
+n 0 19 525.6 -19 re f*
+1 1 1 rg
+BT /F2 9 Tf 12 TL ET
+BT 1 0 0 1 6 64 Tm (Attribute) Tj T* ET
+BT 1 0 0 1 81.6 64 Tm (Applies to \(prefix\)) Tj T* ET
+BT 1 0 0 1 178.8 64 Tm (Returns) Tj T* ET
+BT 1 0 0 1 268.8 64 Tm (Notes / Example) Tj T* ET
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 42 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Callable) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (task objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 42 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (True if a call to the task is allowed without raising Tasking_Error.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 23 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Terminated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (task objects) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Boolean) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 23 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (True if the task has terminated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+BT 1 0 0 1 0 2.5 Tm 11 TL /F3 8.5 Tf .2 .2 .2 rg (') Tj (Count) Tj T* ET
+Q
+Q
+q
+1 0 0 1 81.6 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (entries) Tj T* ET
+Q
+Q
+q
+1 0 0 1 178.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (universal_integer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 268.8 4 cm
+q
+.2 .2 .2 rg
+BT 1 0 0 1 0 2.5 Tm /F1 8.5 Tf 11 TL (Number of callers currently queued on an entry.) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+.8 .8 .8 RG
+.25 w
+n 0 77 m 525.6 77 l S
+n 0 0 m 525.6 0 l S
+n 0 0 m 0 77 l S
+n 525.6 0 m 525.6 77 l S
+n 0 57 m 525.6 57 l S
+n 0 38 m 525.6 38 l S
+n 0 19 m 525.6 19 l S
+n 75.6 0 m 75.6 77 l S
+n 172.8 0 m 172.8 77 l S
+n 262.8 0 m 262.8 77 l S
+Q
+Q
+Q
+q
+1 0 0 1 60 597.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F1 10 Tf 13 TL (Note: These are snapshots; in concurrent code, values can change immediately after you read them.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/Contents 28 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 1592
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 526.3375 766.8 Tm (Page 10) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Implementation-defined attributes \(GNAT and others\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 667.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16 Tm /F1 10 Tf 13 TL (In addition to language-defined attributes, compilers may provide extra attributes. GNAT documents these) Tj T* (separately as implementation-defined attributes. Use them deliberately \(and consider portability\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 654 cm
+Q
+q
+1 0 0 1 60 629 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 12 Tf 15 TL (Examples you may encounter in GNAT) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 597 cm
+q
+BT 1 0 0 1 0 16 Tm 13 TL /F3 10 Tf 0 0 0 rg ('Compiler_Version) Tj /F1 10 Tf (, ) Tj /F3 10 Tf ('Compilation_Time) Tj /F1 10 Tf (, ) Tj /F3 10 Tf ('From_Address) Tj /F1 10 Tf (, etc. \(availability and semantics are) Tj T* (compiler-specific\).) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+29 0 obj
+<<
+/Contents 30 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 1294
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+.121569 .305882 .47451 rg
+n 0 752.4 612 39.6 re f*
+1 1 1 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 54 766.8 Tm (Ada 2022 Attribute Cheat Sheet) Tj T* ET
+BT /F1 8.5 Tf 10.2 TL ET
+BT 1 0 0 1 526.3375 766.8 Tm (Page 11) Tj T* ET
+.4 .4 .4 rg
+BT /F1 7.5 Tf 9 TL ET
+BT 1 0 0 1 54 36 Tm (Printable reference. Focused on commonly used language-defined attributes + key Ada 2022 changes.) Tj T* ET
+Q
+q
+1 0 0 1 60 701.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 60 641.2 cm
+q
+BT 1 0 0 1 0 42 Tm 13 TL /F1 10 Tf 0 0 0 rg (Ada Reference Manual \(2022\): RM 4.1.4 \(Attributes\), RM 4.10 \(Image Attributes\), RM 9.9 \(Task and Entry) Tj T* (Attributes\), RM 13.13.2 \(Stream-Oriented Attributes\).) Tj  T* (AdaCore Learn: What) Tj (') Tj (s New in Ada 2022 - ') Tj (Image for any type, and related discussion of user-defined images.) Tj  T* (GNAT Reference Manual: Implementation-defined attributes.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 313.168 768.96 Tm
+(Copyright \050c\051 2026 Michael Gardner\054 A Bit of Help\054 Inc\056) Tj
+T*
+ET
+BT
+1 0 0 1 359.088 760.46 Tm
+(SPDX\055License\055Identifier\072 BSD\0553\055Clause) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+xref
+0 31
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000184 00000 n 
+0000000233 00000 n 
+0000000487 00000 n 
+0000003554 00000 n 
+0000003661 00000 n 
+0000003768 00000 n 
+0000003880 00000 n 
+0000003985 00000 n 
+0000004101 00000 n 
+0000004357 00000 n 
+0000006204 00000 n 
+0000006460 00000 n 
+0000015293 00000 n 
+0000015549 00000 n 
+0000020524 00000 n 
+0000020780 00000 n 
+0000027786 00000 n 
+0000028042 00000 n 
+0000031923 00000 n 
+0000032179 00000 n 
+0000036602 00000 n 
+0000036858 00000 n 
+0000040733 00000 n 
+0000040989 00000 n 
+0000044067 00000 n 
+0000044323 00000 n 
+0000045968 00000 n 
+0000046224 00000 n 
+trailer
+<<
+/Size 31
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+47571
+%%EOF
