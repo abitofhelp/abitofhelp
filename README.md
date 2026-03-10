@@ -33,7 +33,7 @@ mission-critical deployments by the French Navy (VME PLC battleship control).
 
 ## Recent Open Source
 Ada Alire Crates/GitHub:	
-- dev_container_ada (author/maintainer) — A professional GNAT Ada development container for desktop and embedded (ARM Cortex-M) platforms.
+- Dev_Container_Ada (author/maintainer) — A professional GNAT Ada development container for desktop and embedded (ARM Cortex-M) platforms.
   • https://github.com/abitofhelp/dev_container_ada
 - Functional (author/maintainer) — Crate for functional programming with SPARK safety 
   • https://alire.ada.dev/crates/functional.html
@@ -47,7 +47,7 @@ Ada Alire Crates/GitHub:
   • https://alire.ada.dev/crates/zoneinfo.html
 
 C++/GitHub:	
-- dev_container_cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
+- Dev_Container_Cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
   • https://github.com/abitofhelp/dev_container_cpp
 
 Go Packages/GitHub:
