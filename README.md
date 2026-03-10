@@ -32,10 +32,6 @@ mission-critical deployments by the French Navy (VME PLC battleship control).
 - 🎓 University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
 
 ## Recent Open Source
-C++/GitHub:	
-- dev_container_cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
-  • https://github.com/abitofhelp/dev_container_cpp
-
 Ada Alire Crates/GitHub:	
 - dev_container_ada (author/maintainer) — A professional GNAT Ada development container for desktop and embedded (ARM Cortex-M) platforms.
   • https://github.com/abitofhelp/dev_container_ada
@@ -49,6 +45,10 @@ Ada Alire Crates/GitHub:
   • https://alire.ada.dev/crates/tzif.html
 - ZoneInfo (author/maintainer) — Crate for time zone transformations and calculations using the IANA Time Zone Database
   • https://alire.ada.dev/crates/zoneinfo.html
+
+C++/GitHub:	
+- dev_container_cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
+  • https://github.com/abitofhelp/dev_container_cpp
 
 Go Packages/GitHub:
 - Hybrid_App_Go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
