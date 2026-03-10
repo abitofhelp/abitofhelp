@@ -32,7 +32,13 @@ mission-critical deployments by the French Navy (VME PLC battleship control).
 - 🎓 University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
 
 ## Recent Open Source
-Alire (Ada 2022)	
+C++/GitHub:	
+- dev_container_cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
+  • https://github.com/abitofhelp/dev_container_cpp
+
+Ada Alire Crates/GitHub:	
+- dev_container_ada (author/maintainer) — A professional GNAT Ada development container for desktop and embedded (ARM Cortex-M) platforms.
+  • https://github.com/abitofhelp/dev_container_ada
 - Functional (author/maintainer) — Crate for functional programming with SPARK safety 
   • https://alire.ada.dev/crates/functional.html
 - Hybrid_App_Ada (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
@@ -44,13 +50,13 @@ Alire (Ada 2022)
 - ZoneInfo (author/maintainer) — Crate for time zone transformations and calculations using the IANA Time Zone Database
   • https://alire.ada.dev/crates/zoneinfo.html
 
-Go (Go 1.25.3)
+Go Packages/GitHub:
 - Hybrid_App_Go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_go
 - Hybrid_Lib_Go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_lib_go
 
-Cargo (Rust 2021)
+Rust Crates/GitHub:
 - Adaptive-Pipeline (author/maintainer) — Crate for a high-performance adaptive file processing pipeline 
   • https://crates.io/crates/adaptive-pipeline
 
@@ -58,4 +64,4 @@ Cargo (Rust 2021)
 IoT / IIoT (device-to-cloud), defense/space, scientific/medical data, distributed systems, embedded, electronics, aviation
 
 ## Selected Tech
-Go (Golang) • C • C# • Rust • Ada 2022 • Kubernetes (K8s) • Azure • Linkerd2 • gRPC • GraphQL/REST • Terraform • Helm • Redis • Azure Queues • Bazel • GitHub Actions • Prometheus • Grafana • NGINX • Ambassador/Emissary
+Go (Golang) • C • C++ • C# • Rust • Ada 2022 • Kubernetes (K8s) • Azure • Linkerd2 • gRPC • GraphQL/REST • Terraform • Helm • Redis • Azure Queues • Bazel • GitHub Actions • Prometheus • Grafana • NGINX • Ambassador/Emissary
