@@ -11,7 +11,7 @@
 ## Core Skills
 - 🤖 AI integration: LLMs
 - 🤖 AI Accelerated Development: ChatGPT, Claude Code
-- 💻 Languages & Systems: Ada 2022, C, C#, Go, Python, Rust
+- 💻 Languages & Systems: Ada 2022, C/C++, C#, Go, Python, Rust
 - ☁️ Cloud, Orchestration & Containers: AWS/GCP (familiar), Azure, Docker, Helm, Kubernetes, Linux, Terraform
 - 🏗️ Architecture: Distributed systems, Enterprise Architecture, Microservices, Embedded, Domain Driven Design, Clean/Hexagonal, IoT
 - ⚙️ Build & DevOp: Alire, Bazel, CI/CD, GitHub Actions, GPRbuild
