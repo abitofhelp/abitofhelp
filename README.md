@@ -47,7 +47,7 @@ Ada Alire Crates/GitHub:
   • https://alire.ada.dev/crates/zoneinfo.html
 
 C++/GitHub:	
-- Dev_Container_Cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-M) platforms.
+- Dev_Container_Cpp (author/maintainer) — A professional C++ development container for desktop and embedded (ARM Cortex-A/M) platforms.
   • https://github.com/abitofhelp/dev_container_cpp
 
 Go Packages/GitHub:
@@ -59,6 +59,8 @@ Go Packages/GitHub:
 Rust Crates/GitHub:
 - Adaptive-Pipeline (author/maintainer) — Crate for a high-performance adaptive file processing pipeline 
   • https://crates.io/crates/adaptive-pipeline
+- Dev_Container_Rust (author/maintainer) — A professional Rust development container for desktop and embedded (ARM Cortex-A/M) platforms.
+  • https://github.com/abitofhelp/dev_container_rust
 
 ## Interests
 IoT / IIoT (device-to-cloud), defense/space, scientific/medical data, distributed systems, embedded, electronics, aviation
