@@ -51,6 +51,8 @@ C++/GitHub:
   • https://github.com/abitofhelp/dev_container_cpp
 
 Go Packages/GitHub:
+- Dev_Container_Go (author/maintainer) — A professional Go development container for desktop and Cloud platforms.
+  • https://github.com/abitofhelp/dev_container_go
 - Hybrid_App_Go (author/maintainer) — Enterprise starter application with hybrid DDD/Clean/Hexagonal architecture
   • https://pkg.go.dev/github.com/abitofhelp/hybrid_app_go
 - Hybrid_Lib_Go (author/maintainer) — Enterprise starter library with hybrid DDD/Clean/Hexagonal architecture
