@@ -31,6 +31,9 @@ created PLC Ethernet, ERP, and VME C API libraries; published APIs in product ma
 mission-critical deployments by the French Navy (VME PLC battleship control).
 - 🎓 University of Alaska: Software Engineering Manager for three teams (~20 engineers); personnel development, project management, budgeting, and mentoring on modern practices and advanced architectures.
 
+## Recent Publications
+📄 [(20260317) Neovim / Vim Mini-Guide: A practical 80% reference for everyday editing](/assets/docs/linux/neovim_vim_mini_guide_v1_0_1.pdf)
+
 ## Recent Open Source
 Ada Alire Crates/GitHub:	
 - Dev_Container_Ada (author/maintainer) — A professional GNAT Ada development container for desktop and embedded (ARM Cortex-M) platforms.
